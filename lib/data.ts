@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import flixiqImg from "@/public/flixiq.jpeg";
+import wtsImg from "@/public/wts.jpeg";
+import hfrImg from "@/public/hfr.jpeg";
 
 export const links = [
   {
@@ -82,19 +82,19 @@ export const projectsData = [
     title: "Netflix Database Application",
     description: "Engineered data-driven app to explore 10,000+ Netflix entries, incorporating data cleaning and leveraging PostgreSQL.",
     tags: ["PostgreSQL", "HTML5", "CSS3", "Bootstrap", "Flask", "Git"],
-    imageUrl: corpcommentImg,
+    imageUrl: flixiqImg,
   },
   {
     title: "Wellness Tracking System",
     description: "Developed a wellness app with personalized plans integrating search functionality, Google Auth 2FA, and chat feature.",
     tags: ["PostgreSQL", "HTML5", "CSS3", "Bootstrap", "Django", "Git", "Docker", "JIRA"],
-    imageUrl: rmtdevImg,
+    imageUrl: wtsImg,
   },
   {
     title: "H&M Fashion Recommendation",
     description: "Conducted EDA on 31M records, uncovering key product trends, and optimizing product recommendations.",
     tags: ["Python", "Data Mining", "Data Visualization", "Data Analysis"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: hfrImg,
   },
 ] as const;
 
